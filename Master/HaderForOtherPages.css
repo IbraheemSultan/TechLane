@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+}
+
+header * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    border-bottom: 1px solid hsl(0, 0%, 50%);
+    height: 60px;
+}
+
+.logo {
+    width: 20vw;
+    margin-left: 1vw;
+}
+
+.navigation-links {
+    width: 35vw;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: hsl(0, 0%, 20%);
+    font-size: 2vw;
+    margin-left: 4vw;
+    /* margin: auto; */
+}
+
+.navigation-links a:hover {
+    border-bottom: 2px solid hsl(210, 100%, 56%);
+}
+
+.search-container {
+    width: 20vw;
+    position: relative;
+}
+
+.search-container i {
+    position: absolute;
+    top: 7px;
+    right: 1vw;
+    /* margin: auto; */
+}
+
+/* remmber to able place holder to change with width of web page  */
+.search-bar {
+    background-color: hsl(0, 0%, 50%, 0.1);
+    color: black;
+    border: 0;
+    padding: 0.7vw;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    margin: auto;
+    width: 20vw;
+
+    border-radius: 20px;
+}
+
+.search-bar:focus,
+.search-bar:hover {
+    border: 2px solid hsl(210, 100%, 56%);
+    outline: none;
+}
+
+.icons {
+    margin-left: 3vw;
+}
+
+.icons i {
+    margin-left: 2vw;
+    color: black;
+}
+
+.icons i:hover {
+    cursor: pointer;
+    color: hsl(210, 100%, 56%);
+
+}
+
+.icons ul {
+    display: none;
+}
+
+/* ---------------------end-header--------------------------- */

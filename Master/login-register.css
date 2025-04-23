@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+header * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    border-bottom: 1px solid hsl(0, 0%, 50%);
+    height: 60px;
+}
+
+.logo {
+    width: 25vw;
+}
+
+.navigation-links {
+    width: 40vw;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: hsl(0, 0%, 20%);
+    font-size: 2vw;
+    margin-left: 5vw;
+    /* margin: auto; */
+}
+
+.navigation-links a:hover {
+    border-bottom: 2px solid hsl(210, 100%, 56%);
+}
+
+.search-container {
+    width: 25vw;
+    position: relative;
+}
+
+.search-container i {
+    position: absolute;
+    top: 9px;
+    right: 8vw;
+    /* margin: auto; */
+}
+
+.search-bar {
+    background-color: hsl(0, 0%, 50%, 0.1);
+    color: black;
+    border: 0;
+    padding: 0.7vw;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    margin: auto;
+    width: 18vw;
+
+    border-radius: 20px;
+}
+
+.search-bar:focus,
+.search-bar:hover {
+    border: 2px solid hsl(210, 100%, 56%);
+    outline: none;
+}
+
+.icons {
+    display: none;
+}
+
+/* ---------------------end-header--------------------------- */
+
+.Container {
+    height: 80vh;
+    width: 100vw;
+}
+
+.login-img {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.login-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.login-form {
+    display: inline-block;
+    text-align: center;
+}
