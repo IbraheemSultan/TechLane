@@ -87,8 +87,12 @@ body {
 
 .member img {
   width: 100%;
+  height: 260px;
   /* border-radius: 50%; */
   margin-bottom: 10px;
+}
+.member2{
+  margin: 0 5vw;
 }
 
 .member h4 {
