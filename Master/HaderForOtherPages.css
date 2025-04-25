@@ -16,7 +16,7 @@ header {
 }
 
 .logo {
-    width: 20vw;
+    max-width: 20vw;
 }
 
 .navigation-links {
@@ -40,7 +40,7 @@ header {
 }
 
 .search-container {
-    width: 20vw;
+    max-width: 20vw;
     position: relative;
 }
 
@@ -59,7 +59,7 @@ header {
     padding-left: 1vw;
     padding-right: 2vw;
     margin: auto;
-    width: 20vw;
+    max-width: 20vw;
     border-radius: 20px;
 }
 
