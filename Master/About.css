@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fff;
-  color: #333;
+  color: hsl(0, 0%, 20%);
 }
 
 .container {
@@ -130,5 +130,5 @@ body {
   }
   
   .social-icons a:hover {
-    color: #1E90FF;
+    color: hsl(210, 100%, 56%);
   }
