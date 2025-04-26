@@ -116,6 +116,7 @@ header {
     width: 100%;
     height: 5vh;
     border-bottom: 1px solid;
+    padding-left: 5px;
 }
 
 .login-submit {
@@ -132,11 +133,13 @@ header {
     border-radius: 3px;
     background-color: hsl(210, 100%, 56%);
     font-size: medium;
+    
 }
 
 /* remmber put affect on click */
 .login-submit input:hover {
     cursor: pointer;
+    background-color: hsla(210, 100%, 56%, 0.525);
 }
 
 .login-form a {
@@ -174,11 +177,13 @@ header {
     height: 5vh;
     border-bottom: 1px solid;
     margin: 1vw 0;
+    padding-left: 5px;
 
 }
 
 .Register-submit input {
     /* width: 30%; */
+    
     color: #ffffff;
     height: 4vw;
     border: none;
@@ -186,6 +191,9 @@ header {
     background-color: hsl(210, 100%, 56%);
     font-size: medium;
     cursor: pointer;
+}
+.Register-submit input:hover{
+   background-color: hsla(210, 100%, 56%, 0.525);
 }
 
 /* remmber put affect on click */
@@ -201,7 +209,7 @@ header {
     color: hsl(0, 0%, 50%);
 }
 
-
+  
 
 
 
