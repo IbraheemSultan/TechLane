@@ -9,15 +9,12 @@
 body {
     font-family: 'Segoe UI', sans-serif;
     box-sizing: border-box;
-    background: #fff;
+    background-color: #fafafa;
     /* color: hsl(0, 0%, 20%); */
 }
 
 .contact-section {
-    background-color: hsl(0, 0%, 98%);
     padding: 60px 20px;
-    font-family: 'Segoe UI', sans-serif;
-
 }
 
 .contact-container {
