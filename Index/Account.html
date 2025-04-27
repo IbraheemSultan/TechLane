@@ -7,63 +7,243 @@
   <title>TECHLANE</title>
   <link rel="stylesheet" href="../Master/HaderForOtherPages.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="shortcut icon" href="../image/ChatGPT Image 25 أبريل 2025، 03_50_46 ص.png" type="image/png">
+  <style>
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+  }
+  
+  body {
+      background-color: #f9f9f9;
+  }
+  
+
+  .container {
+      display: flex;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+  }
+  
+  aside {
+      width: 250px;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-right: 40px;
+      height: fit-content;
+  }
+  
+  aside h2 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #333;
+  }
+  
+  aside ul {
+      list-style: none;
+      margin-bottom: 20px;
+  }
+  
+  aside ul li {
+      padding: 8px 0;
+      color: #555;
+      cursor: pointer;
+  }
+  
+  aside ul li.active {
+      color: red;
+      font-weight: bold;
+  }
+  
+   
+  .profile-section {
+      flex: 1;
+      background-color: #fff;
+      padding: 30px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+  }
+  
+  .profile-section h1 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+  }
+  
+  
+  form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .form-group {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .form-group input {
+      flex: 1;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+  }
+  
+ 
+  .save-btn {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  
+  .save-btn:hover {
+      background-color: #0056b3;
+  }
+  </style>
+
 
 </head>
 
 <body>
 
-  <header>
-    <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" fill="none" class="logo">
-      <text x="0" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#1E90FF" font-weight="bold">TECH</text>
-      <text x="105" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#000000"
-        font-weight="bold">LANE</text>
-    </svg>
-    <ul class="navigation-links">
+  
+    <header>
+        <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" fill="none" class="logo">
+          <text x="0" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#1E90FF" font-weight="bold">TECH</text>
+          <text x="105" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#000000"
+            font-weight="bold">LANE</text>
+        </svg>
+        <ul class="navigation-links">
+    
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="About.html">About</a></li>
+    
+        </ul>
+    
+        <div class="search-container">
+          <input type="search" placeholder="What are you looking for?" class="search-bar">
+          <i class="fas fa-search"></i>
+        </div>
+    
+        <div class="icons">
+    
+          <a href="">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="Cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+    
+          <div id="account-icon-container">
+            <i class="fa-regular fa-circle-user" id="account-icon"></i>
+            <!--  Handel View by js -->
+            <!-- <ul id="account-dropdown-active" class="dropdown">
+              <li>
+                <a href="Account.html">Profile</a>
+              </li>
+              <li>
+                <a href="Account.html">My Returns </a>
+              </li> 
+              <li>
+                <a href="Account.html/">My Cancellations </a>
+              </li>
+              <li>
+                <a href="#">Logout</a>
+              </li>
+            </ul> -->
+    
+            <ul id="account-dropdown-passive" class="dropdown">
+              <li><a href="Login.html">Login</a></li>
+              <li class="account-register-btn"><a href="Register.html">Register</a></li>
+            </ul>
+          </div>
+    
+        </div>
+    
+      </header>
 
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-      <li><a href="About.html">About</a></li>
 
-    </ul>
+  <div class="container">
+    <aside>
+        <h2>Manage My Account</h2>
+        <ul>
+            <li class="active">My Profile</li>
+            <li>Address Book</li>
+            <li>My Payment Options</li>
+        </ul>
 
-    <div class="search-container">
-      <input type="search" placeholder="What are you looking for?" class="search-bar">
-      <i class="fas fa-search"></i>
-    </div>
+        <h2>My Orders</h2>
+        <ul>
+            <li>My Returns</li>
+            <li>My Cancellations</li>
+        </ul>
 
-    <div class="icons">
+        <h2>My Wishlist</h2>
+    </aside>
 
-      <a href="">
-        <i class="fa-regular fa-heart"></i>
-      </a>
-      <a href="Cart.html">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </a>
+    <section class="profile-section">
+        <h1>Edit Your Profile</h1>
+        <form id="profileForm">
+            <div class="form-group">
+                <input type="text" id="firstName" placeholder="First Name">
+                <input type="text" id="lastName" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Email">
+                <input type="text" id="address" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <input type="password" id="currentPassword" placeholder="Current Password">
+                <input type="password" id="newPassword" placeholder="New Password">
+                <input type="password" id="confirmPassword" placeholder="Confirm New Password">
+            </div>
+            <button type="submit" class="save-btn">Save Changes</button>
+        </form>
+    </section>
+</div>
+<script>
+document.getElementById('profileForm').addEventListener('submit', function(e) {
+    e.preventDefault();
 
-      <a href="Account.html">
+    
+    const firstName = document.getElementById('firstName').value.trim();
+    const lastName = document.getElementById('lastName').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const address = document.getElementById('address').value.trim();
+    const currentPassword = document.getElementById('currentPassword').value.trim();
+    const newPassword = document.getElementById('newPassword').value.trim();
+    const confirmPassword = document.getElementById('confirmPassword').value.trim();
 
-        <i class="fa-regular fa-circle-user">
+
+    if (!firstName || !lastName || !email || !address) {
+        alert('Please fill out all required fields.');
+        return;
+    }
+
+    if (newPassword !== confirmPassword) {
+        alert('New password and confirmation do not match.');
+        return;
+    }
+
+   alert('Profile updated successfully!');
+    
+
+});
+</script>
 
 
-          <ul id="accountDropdown1" class="dropdown">
-            <li><a href="Account.html">Profile</a></li>
-            <!-- check if need page or already founding page -->
-            <!-- <a href="Account.html">My order</a> -->
-            <li><a href="#">Logout</a></li>
-          </ul>
-
-          <ul id="accountDropdown2" class="dropdown">
-            <li><a href="Login.html">login</a></li>
-            <li><a href="Register.html">Register</a></li>
-          </ul>
-
-        </i>
-
-      </a>
-
-    </div>
-
-  </header>
 
 
 
