@@ -117,58 +117,62 @@
 
 <body>
 
-  <header>
-    <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" fill="none" class="logo">
-      <text x="0" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#1E90FF" font-weight="bold">TECH</text>
-      <text x="105" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#000000"
-        font-weight="bold">LANE</text>
-    </svg>
-    <ul class="navigation-links">
-
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-      <li><a href="About.html">About</a></li>
-
-    </ul>
-
-    <div class="search-container">
-      <input type="search" placeholder="What are you looking for?" class="search-bar">
-      <i class="fas fa-search"></i>
-    </div>
-
-    <div class="icons">
-
-      <a href="">
-        <i class="fa-regular fa-heart"></i>
-      </a>
-      <a href="Cart.html">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </a>
-
-      <a href="Account.html">
-
-        <i class="fa-regular fa-circle-user">
-
-
-          <ul id="accountDropdown1" class="dropdown">
-            <li><a href="Account.html">Profile</a></li>
-            <!-- check if need page or already founding page -->
-            <!-- <a href="Account.html">My order</a> -->
-            <li><a href="#">Logout</a></li>
-          </ul>
-
-          <ul id="accountDropdown2" class="dropdown">
-            <li><a href="Login.html">login</a></li>
-            <li><a href="Register.html">Register</a></li>
-          </ul>
-
-        </i>
-
-      </a>
-
-    </div>
-
-  </header>
+  
+    <header>
+        <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" fill="none" class="logo">
+          <text x="0" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#1E90FF" font-weight="bold">TECH</text>
+          <text x="105" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#000000"
+            font-weight="bold">LANE</text>
+        </svg>
+        <ul class="navigation-links">
+    
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="About.html">About</a></li>
+    
+        </ul>
+    
+        <div class="search-container">
+          <input type="search" placeholder="What are you looking for?" class="search-bar">
+          <i class="fas fa-search"></i>
+        </div>
+    
+        <div class="icons">
+    
+          <a href="">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="Cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+    
+          <div id="account-icon-container">
+            <i class="fa-regular fa-circle-user" id="account-icon"></i>
+            <!--  Handel View by js -->
+            <!-- <ul id="account-dropdown-active" class="dropdown">
+              <li>
+                <a href="Account.html">Profile</a>
+              </li>
+              <li>
+                <a href="Account.html">My Returns </a>
+              </li> 
+              <li>
+                <a href="Account.html/">My Cancellations </a>
+              </li>
+              <li>
+                <a href="#">Logout</a>
+              </li>
+            </ul> -->
+    
+            <ul id="account-dropdown-passive" class="dropdown">
+              <li><a href="Login.html">Login</a></li>
+              <li class="account-register-btn"><a href="Register.html">Register</a></li>
+            </ul>
+          </div>
+    
+        </div>
+    
+      </header>
 
 
   <div class="container">
