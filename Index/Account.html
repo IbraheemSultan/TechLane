@@ -22,44 +22,40 @@
   }
   
 
-  .container {
-      display: flex;
-      padding: 40px;
-      max-width: 1200px;
-      margin: auto;
-  }
-  
-  aside {
-      width: 250px;
-      background-color: #fff;
-      padding: 20px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      margin-right: 40px;
-      height: fit-content;
-  }
-  
-  aside h2 {
-      margin-bottom: 10px;
-      font-size: 18px;
-      color: #333;
-  }
-  
-  aside ul {
-      list-style: none;
-      margin-bottom: 20px;
-  }
-  
-  aside ul li {
-      padding: 8px 0;
-      color: #555;
-      cursor: pointer;
-  }
-  
-  aside ul li.active {
-      color: red;
-      font-weight: bold;
-  }
+  .account-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.sidebar-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu li {
+  margin-bottom: 8px;
+}
+
+.sidebar-menu li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.sidebar-menu li a:hover {
+  color: #1100ff;
+}
   
    
   .profile-section {
@@ -175,23 +171,25 @@
       </header>
 
 
-  <div class="container">
-    <aside>
-        <h2>Manage My Account</h2>
-        <ul>
-            <li class="active">My Profile</li>
-            <li>Address Book</li>
-            <li>My Payment Options</li>
+      <div class="account-sidebar">
+        <h3 class="sidebar-title">Account</h3>
+        <ul class="sidebar-menu">
+          <li><a href="#">My Profile</a></li>
+          <li><a href="#">Address Book</a></li>
+          <li><a href="#">Payment Options</a></li>
         </ul>
-
-        <h2>My Orders</h2>
-        <ul>
-            <li>My Returns</li>
-            <li>My Cancellations</li>
+      
+        <h3 class="sidebar-title">My Orders</h3>
+        <ul class="sidebar-menu">
+          <li><a href="#">My Returns</a></li>
+          <li><a href="#">My Cancellations</a></li>
         </ul>
-
-        <h2>My Wishlist</h2>
-    </aside>
+      
+        <h3 class="sidebar-title">My Wishlist</h3>
+        <ul class="sidebar-menu">
+          <li><a href="#"> My Wishlist</a></li>
+        </ul>
+      </div>
 
     <section class="profile-section">
         <h1>Edit Your Profile</h1>
