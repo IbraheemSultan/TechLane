@@ -89,7 +89,20 @@ body {
   position: relative;
   text-align: center;
   transition: 2s;
+  
 }
+
+/* .member::before {
+  content:"" ;
+  width:0%;
+  height: 0%;
+  position: absolute;
+  background-color: rgb(85, 85, 85,0.4);
+  z-index: 2;
+  display: none;
+  transition: 2s all;
+}
+
 .member:hover:before {
   content:"" ;
   width:100%;
@@ -97,8 +110,8 @@ body {
   position: absolute;
   background-color: rgb(85, 85, 85,0.4);
   z-index: 2;
-  display: none;
-}
+  display: block;
+} */
 
 .member img {
   margin-left: 5%;
