@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    /* color: hsl(0, 0%, 20%); */
+}
+
+/* -----------------cart table ------------------------- */
+.Container {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.cart-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cart-header-item,
+.cart-body-item {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 90vw;
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart-header-item th,
+.cart-body-item td {
+    text-align: center;
+    width: 25%;
+}
+
+.first-th {
+    /* text-align: left !important; */
+}
+
+.product-img {
+    width: 80px;
+    height: 80px;
+
+}
+
+#product-column img {
+    max-height: 80px;
+    max-width: 60px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.remove-icon {
+    /* display: none; */
+    position: absolute;
+    background-color: hsl(0, 100%, 35%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 54352;
+}
+
+#quantity-column input {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 1;
+    border: 1px solid gray;
+
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+    /* Always visible */
+    background-color: lightgray;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-moz-number-spin-box {
+    display: block;
+}
+
+
+/* ------------------------cart action ------------------------- */
+
+.cart-action {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+
+.cart-action input {
+    width: 20%;
+    color: #ffffff;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: hsl(210, 100%, 56%);
+    cursor: pointer;
+}
+
+.cart-action input:hover {
+    background-color: hsla(210, 100%, 56%, 0.525);
+}
+
+
+
+/* --------------------------cart coupon---------------------------*/
+
+.cart-coupon {
+    /* height: 50px; */
+    
+}
+
+#coupon-input {
+    min-width: 27vw;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+#coupon-submit{    
+    min-width: 18vw;
+    color: #ffffff;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(210, 100%, 56%);
+   
+    cursor: pointer;
+    margin-left: 10px;
+}
+#coupon-submit:hover {
+    background-color: hsla(210, 100%, 56%, 0.525);
+}
+
+/* ----------------------------- cart summary ---------------------*/
+
+.summary-box{
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-width: 35vw;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.summary-box tr{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+#summary-shipping{
+    border-top: 1px solid hsl(0, 0%, 70%);
+    border-bottom: 1px solid hsl(0, 0%, 70%);
+}
+#summary-submit{
+    justify-content: center;
+}
+#summary-submit-btn{
+
+    min-width: 20vw;
+    color: #ffffff;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(210, 100%, 56%);
+    justify-self: center;
+    cursor: pointer;
+}
+#summary-submit-btn:hover {
+    background-color: hsla(210, 100%, 56%, 0.525);
+}
