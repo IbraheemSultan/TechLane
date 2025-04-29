@@ -105,14 +105,14 @@ header {
 }
 
 #account-dropdown-passive {
-    display: none;
+    /* display: flex; */
     flex-direction: column;
     justify-content: space-evenly;
     padding: 30px;
     position: absolute;
     background-image: linear-gradient( to right , black , gray );
-    right: 3px;
-    top: 25px;
+    right: 0px;
+    top: 20px;
     list-style: none;
     border-radius: 8px;
     text-transform: none !important;

@@ -8,100 +8,7 @@
   <link rel="stylesheet" href="../Master/HaderForOtherPages.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="shortcut icon" href="../image/ChatGPT Image 25 أبريل 2025، 03_50_46 ص.png" type="image/png">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      display: flex;
-      margin: 50px auto;
-      width: 80%;
-      background: #fff;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .sidebar {
-      width: 250px;
-      background: #fafafa;
-      border-right: 1px solid #ddd;
-      padding: 20px;
-    }
-
-    .sidebar h3 {
-      margin-bottom: 20px;
-      color: #333;
-      font-size: 18px;
-    }
-
-    .sidebar ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .sidebar ul li {
-      margin: 10px 0;
-      cursor: pointer;
-      padding: 10px;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      transition: background 0.3s;
-    }
-
-    .sidebar ul li:hover,
-    .sidebar ul li.active {
-      background: #e8e8e8;
-    }
-
-    .content {
-      flex: 1;
-      padding: 30px;
-    }
-
-    .content h2 {
-      margin-bottom: 20px;
-      color: #444;
-    }
-
-    .form-group {
-      margin-bottom: 15px;
-    }
-
-    .form-group input {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-
-    .btn {
-      background: #3b35e5;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-
-    .btn:hover {
-      background: #3f2fd3;
-    }
-  </style>
+  <link rel="stylesheet" href="../Master/Account.css">
 
 
 </head>
@@ -180,14 +87,11 @@
         <li class="tab-btn" data-tab="cancellations"><i class="fa fa-times"></i> My Cancellations</li>
       </ul>
 
-      <h3>My Wishlist</h3>
-      <ul>
-        <li class="tab-btn" data-tab="wishlist"><i class="fa fa-heart"></i> My Wishlist</li>
-      </ul>
+
     </div>
 
     <div class="content" id="tab-content">
-      <h2> Edit your Profile</h2>
+      <h2>My Profile</h2>
       <div class="form-group">
         <input type="text" placeholder="First Name">
       </div>
@@ -208,14 +112,47 @@
       </div>
       <div class="form-group">
         <input type="password" placeholder="Confirm New Password">
-      </div >
-      <button class="btn" >Save Changes</button>
+      </div>
+      <button class="btn">Save Changes</button>
     </div>
   </div>
 
+  <footer>
+    <div class="data-container">
+      <div class="support">
+        <h2>Support</h2>
+        <p class="support-address">
+          Street Address, Suite Number, <br> City, State, Country
+        </p>
+        <p class="support-email">
+          techlane@gmail.com
+        </p>
+        <p class="support-phone">
+          + 1 555 123 4567
+        </p>
 
+      </div>
+      <div class="account">
+        <h2>Account</h2>
+        <a href="#fa-circle-user">My account</a>
+        <a href="#fa-circle-user">Login / Register</a>
+        <a href="Cart.html">Cart </a>
+        <a href="#">Wishlist</a>
+      </div>
+      <div class="quick-link">
+        <h2>Quick Link</h2>
+        <a href="#">privacy policy</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">FAQ</a>
+        <a href="Contact.html">Contact</a>
+      </div>
 
-
+    </div>
+    <div class="copyright-container">
+      <p class="line"></p>
+      <p class="copyright"> &copy; Copyright Sultan Team 2025. All right reserved </p>
+    </div>
+  </footer>
 
   <script>
     const tabButtons = document.querySelectorAll('.tab-btn');
@@ -287,9 +224,6 @@
         case 'cancellations':
           content = `<h2>My Cancellations</h2><p>View your cancelled orders here.</p>`;
           break;
-        case 'wishlist':
-          content = `<h2>My Wishlist</h2><p>View items you have added to your wishlist.</p>`;
-          break;
         default:
           content = `<h2>My Profile</h2>`;
       }
@@ -297,44 +231,6 @@
     }
   </script>
 
-
-
-
-
-
-
-  <footer>
-
-    <div class="support">
-      <h2>Support</h2>
-      <p class="support-address">
-        Street Address, Suite Number, City, State, Country
-      </p>
-      <p class="support-email">
-        techlane@gmail.com
-      </p>
-      <p class="support-phone">
-        + 1 555 123 4567
-      </p>
-
-    </div>
-    <div class="account">
-      <h2>Account</h2>
-      <a href="#fa-circle-user">My account</a>
-      <a href="#fa-circle-user">Login / Register</a>
-      <a href="Cart.html">Cart </a>
-      <a href="#">Wishlist</a>
-    </div>
-    <div class="quick-link">
-      <h2>Quick Link</h2>
-      <a href="#">privacy policy</a>
-      <a href="#">Terms Of Use</a>
-      <a href="#">FAQ</a>
-      <a href="Contact.html">Contact</a>
-    </div>
-    <hr>
-    <p class="copyright"> &copy; Copyright Sultan 2025. All right reserved </p>
-  </footer>
   <!-- for only test -->
   <!-- <script>
         function toggleDropdown() {
