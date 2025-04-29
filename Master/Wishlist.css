@@ -6,28 +6,31 @@
 
 .wishlist-section,
 .suggest-section {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: auto auto;
-    grid-template-areas: " title title mov mov " " item item item item ";
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    gap: 3vw 0;
+    gap: 20px;
     margin-bottom: 50px;
 }
 
 .wishlist-items,
 .suggest-items {
-    grid-area: item;
-    display: grid;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
     /* edit in media */
-    grid-template-columns: repeat(4, 23%);
-    justify-content: space-between;
+    gap: 20px;
 
 }
-
+.container-top{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .wishlist-title,
 .suggest-title {
-    grid-area: title;
     vertical-align: middle;
     align-self: center;
 }
@@ -44,24 +47,22 @@
 .wishlist-title h2,
 .suggest-title h2 {
     display: inline-block;
+    font-size: 3vw ;
     padding-left: 10px;
     vertical-align: middle;
 }
 
 .wishlist-move-all,
 .suggest-see {
-    font-size: 1vw;
-    grid-area: mov;
-    text-align: right;
-    vertical-align: middle;
-    align-self: center;
-    height: 100%;
+  
+    height: 30px;
 }
 
 .wishlist-move-all button,
 .suggest-see button {
     height: 100%;
-    padding: 0 40px;
+    padding: 0 2vw;
+    font-size: 1.5vw;
     background-color: #fff;
     border-radius: 5px;
     border: 1px solid gray;
@@ -77,9 +78,10 @@
 .wishlist-item,
 .suggest-item {
     margin-bottom: 20px;
-    min-width: 100%;
+    min-width: 210px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 
 }
 
@@ -87,12 +89,14 @@
 .suggest-item-action {
     width: 100%;
     height: 240px;
+    background-color: hsl(0, 0%, 80%);
     position: relative;
     border-radius: 10px;
 }
 
 .item-discound,
 .item-delet-btn,
+.item-show-btn,
 .item-add-btn {
     position: absolute;
     z-index: 999;
@@ -106,17 +110,17 @@
     padding: 5px 10px;
     text-align: center;
     color: #fff;
-    font-size: 0.7em;
+    font-size: 1.1vw;
     font-family: none;
     border: none;
 }
 
-.item-delet-btn {
+.item-delet-btn ,.item-show-btn{
     right: 8px;
     top: 5px;
 
 }
-.item-delet-btn button{
+.item-delet-btn button ,.item-show-btn button{
     padding: 5px;
     background-color: transparent;
     border: none;
@@ -124,19 +128,9 @@
     cursor: pointer;
     position: relative;
 }
-.item-delet-btn button::before{
-    content: "";
-    position: absolute;
-    border-radius: 50%;
-    width: 0%;
-    height: 0%;
-    background-color: hsl(0, 0%, 50% ,.5);
-    top: 1px;
-    right: 1px;
-}
-.item-delet-btn button:hover:before{
-    width: 100%;
-    height: 100%;
+
+.item-delet-btn button:hover ,.item-show-btn button:hover {
+    color: hsl(210, 100%, 56%);
 }
 
 
@@ -179,7 +173,7 @@
     border-radius: 5px 5px 0 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     background-color: hsl(0, 0%, 80%);
 }
 
