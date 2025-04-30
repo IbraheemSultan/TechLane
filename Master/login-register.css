@@ -193,7 +193,7 @@ header {
     cursor: pointer;
 }
 .Register-submit input:hover{
-   background-color: hsla(210, 100%, 56%, 0.525);
+background-color: hsla(210, 100%, 56%, 0.525);
 }
 
 /* remmber put affect on click */
@@ -209,7 +209,7 @@ header {
     color: hsl(0, 0%, 50%);
 }
 
-  
+
 
 
 
