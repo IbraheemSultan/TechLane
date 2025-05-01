@@ -58,11 +58,12 @@ img.active {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: white;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 50%;
     color: black;
     border: none;
-    font-size: 30px;
-    padding: 12px 18px;
+    font-size: 2vw;
+    padding: 8px;
     cursor: pointer;
     z-index: 1;
 }
