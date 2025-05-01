@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="../Master/HaderForOtherPages.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="shortcut icon" href="../image/ChatGPT Image 25 أبريل 2025، 03_50_46 ص.png" type="image/png">
+  <link rel="stylesheet" href="../Master/CheckOut.css">
 
 </head>
 
 <body>
 
- 
+
   <header>
     <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" fill="none" class="logo">
       <text x="0" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#1E90FF" font-weight="bold">TECH</text>
@@ -70,6 +71,74 @@
 
   </header>
 
+  <div class="container">
+
+    <div class="billing-details">
+      <h2>Billing Details</h2>
+      <form action="">
+        <label for="name">First Name*</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="Company">Company Name</label><br>
+        <input type="text" id="Company" name="Company" required><br><br>
+
+        <label for="address">Street Address</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="optional">Apartment,Floor,etc.(optional)</label><br>
+        <input type="text" id="optional" name="optional" required><br><br>
+
+        <label for="city">Town/City*</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="phone">Phone Number*</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="email">Email Address*</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+
+        <input type="checkbox" id="agree" name="agree" required> <label for="agree"
+          style="display: inline; white-space: nowrap;">Save this information for faster check-out next time</label>
+
+
+      </form>
+    </div>
+
+    <div class="order-summary">
+
+      <div class="order-item">
+        <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt=" Lenovo " width="50">
+        <span>Lenovo</span>
+        <span>$650</span>
+      </div>
+      <div class="order-item">
+        <img src="../image/WhatsApp Image 2025-04-28 at 06.13.15_ec3bf054.jpg" alt="H Gamepad" width="50">
+        <span>H Gamepad</span>
+        <span>$100</span>
+      </div>
+
+      <div class="order-totals">
+        <div>Subtotal <span>$750</span></div>
+        <hr>
+        <div>Shipping <span>Free</span></div>
+        <hr>
+        <div>Total <strong>$750</strong></div>
+      </div>
+
+      <div class="payment-method">
+        <label><input type="radio" name="payment" checked> Bank</label><br>
+        <label><input type="radio" name="payment"> Cash on delivery</label>
+      </div>
+
+      <div class="coupon">
+        <input type="text" placeholder="Coupon Code">
+        <button>Apply Coupon</button>
+      </div>
+
+      <button class="place-order">Place Order</button>
+    </div>
+  </div>
 
 
 
@@ -91,10 +160,10 @@
       </div>
       <div class="account">
         <h2>Account</h2>
-        <a href="#fa-circle-user">My account</a>
-        <a href="#fa-circle-user">Login / Register</a>
+        <a href="Account.html">My account</a>
+        <a href="Login.html">Login / Register</a>
         <a href="Cart.html">Cart </a>
-        <a href="#">Wishlist</a>
+        <a href="Wishlist.html">Wishlist</a>
       </div>
       <div class="quick-link">
         <h2>Quick Link</h2>
@@ -111,7 +180,7 @@
     </div>
   </footer>
 
-   
+
 </body>
 
 </html>

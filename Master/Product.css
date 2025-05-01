@@ -1,0 +1,236 @@
+.product-container {
+    width: 90vw;
+    margin: auto;
+    padding: 90px 0;
+}
+
+.pro-dtl-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+/* start pro img */
+.pro-img {
+    flex: 4;
+    display: flex;
+    gap: 20px;
+}
+
+.pro-details {
+    flex: 2;
+}
+
+.figure-slid {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    min-width: 55px;
+}
+
+.pro-img-slid {
+    flex: 1;
+    width: 100%;
+    height: 100px;
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pro-img-slid img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.figure-main {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 5px;
+    min-width: 220px;
+}
+
+.pro-img-main img {
+    max-width: 100%;
+    max-height: 400px;
+
+}
+
+/* start pro detils */
+.pro-data {
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+
+.pro-data h2 {
+    font-size: 3vw;
+    padding-bottom: 10px;
+}
+
+.available {
+    color: rgb(102, 240, 194);
+    font-size: 2vw;
+}
+
+.price-current {
+    color: red;
+    font-size: 2vw;
+    padding-left: 8vw;
+}
+
+.price-old {
+    color: gray;
+    font-size: 1.7vw;
+    text-decoration: line-through;
+    padding-left: .5vw;
+
+}
+
+.pro-description {
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+
+/* pro action */
+
+.pro-action {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pro-color{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pro-color h4 {
+    display: inline-block;
+    font-size: 2.5vw;
+    margin-right: 15px;
+}
+
+.pro-color input {
+    display: none;
+}
+
+.pro-color label {
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+    border: 1px solid #fff;
+}
+
+.circul-color1 {
+    background-color: brown;
+}
+
+.circul-color2 {
+    background-color: blue;
+}
+
+.pro-color input[type="radio"]:checked+label {
+    outline: 1px solid black;
+}
+.pro-btn{
+    display: inline-flex; gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.quantity-selector {
+    display: inline-flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+    width: fit-content;
+    margin: 1vw ;
+}
+
+.qty-btn {
+    border: none;
+    width: 3vw;
+    font-size: 2vw;
+    font-weight: normal;
+    height: 3vw;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.qty-btn:hover {
+    background-color: hsl(210, 100%, 56%);
+    color: #fff;
+}
+
+#qty {
+    width: 6vw;
+    border: none;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    text-align: center;
+}
+
+
+.pro-btn input[type="button"]{
+    color: #ffffff;
+    height: 3vw;
+    border: none;
+    font-weight: normal;
+    font-size: 1.5vw !important;
+    border-radius: 3px;
+    background-color: hsl(210, 100%, 56%);
+    font-size: medium;
+    padding: 0 5vw ;
+    
+}
+.pro-btn input[type="button"]:hover{
+    cursor: pointer;
+    background-color: hsla(210, 100%, 56%, 0.525);
+}
+
+.wishlist-icon{
+    height: 3vw;
+    padding: 0 1vw;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 1.5vw !important;
+    cursor: pointer;
+}
+.wishlist-icon:hover{
+    background-color: hsla(210, 100%, 56%, 0.525);
+    color: #fff;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.feature{
+    min-width: 20vw;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 10px;
+    width: fit-content;
+}
+.feature-line{
+    border-bottom: 1px solid gray;
+    width: 100%;
+}

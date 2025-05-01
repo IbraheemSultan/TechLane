@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    margin: 150px 40px 150px 40px;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+.order-summary{
+    margin-top: 100px;
+}
+
+.billing-details,
+.order-summary {
+    flex: 1;
+
+}
+#name,
+#Company,
+#address,
+#optional,
+#city,
+#phone,
+#email {
+    width: 80%;
+    height: 40px;
+    border: 1px solid white;
+    margin-top: 0px;
+    padding: 5px;
+    background-color: #f4ecec;
+}
+
+.billing-details label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.order-totals div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.payment-method {
+    margin: 20px 0;
+}
+
+.coupon {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.coupon input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.coupon button {
+    padding: 10px 20px;
+    background-color: hsl(210, 100%, 56%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.coupon button:hover{
+    background-color: hsl(210, 100%, 56%,0.525);
+}
+.place-order {
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(134, 61%, 41%);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.place-order:hover {
+    background-color: hsl(133, 61%, 33% );
+}
