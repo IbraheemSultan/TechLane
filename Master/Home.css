@@ -39,7 +39,7 @@ body {
 
 .slider img {
     background-color: hsl(0, 0%, 80%);
-    max-width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: fill;
     position: center;
