@@ -72,8 +72,63 @@
     </div>
 
   </header>
+  
+  
+  
+    
+  <div class="slider">
+    <button class="arrow left-arrow" onclick="prevImage()">←</button>
+    <button class="arrow right-arrow" onclick="nextImage()">→</button>
+    
+    <img src="../image/dell-homepage-product-wayfinding-cold-monitors-u4025qw.avif" class="active">
+    <img src="../image/Two MacBook Air M2 Silver Mockup - Free Download Images High Quality PNG, JPG - 108662.jpeg">
+    <img src="../image/dell-homepage-product-wayfinding-cold-laptops-xps16-sl.avif">
+    <img src="../image/NEW_HOME_P1P2_Global_Merchandising_684x684_pc.avif">
+    <img src="../image/galaxy_fit3_330x330_small_tile_pc.avif">
+    <img src="../image/330x330_SmallTile_desktop-qled4k1.avif">
+    <img src="../image/Shop All Dell Deals on PCs, Monitors & Gaming.jpeg">
+    <img src="../image/Móviles_ Noticias, análisis y novedades _ MovilesyMas_net -.jpeg">
+    <img src="../image/ASUS ROG Zephyrus S - Evan Winters _ Triumph.jpeg">
+    <img src="../image/Notebook Huawei.jpeg">
+    <img src="../image/TECHLANE.png">
+    <img src="../image/330x330_SmallTile_desktop_product.avif">
+    <img src="../image/330x330_SmallTile_desktop-qled4k1.avif">
+    <img src="../image/Gemini_Generated_Image_5z89855z89855z89.jpeg">
+    
+    
+  </div>
 
+  <script>
+    let current = 0;
+    const images = document.querySelectorAll('.slider img');
 
+    function showImage(index) {
+      images.forEach(img => img.classList.remove('active'));
+      images[index].classList.add('active');
+    }
+
+    function nextImage() {
+      current = (current + 1) % images.length;
+      showImage(current);
+    }
+
+    function prevImage() {
+      current = (current - 1 + images.length) % images.length;
+      showImage(current);
+    }
+
+  
+    setInterval(nextImage, 3000);
+  </script>
+
+<div class="pragraph">
+  <h1><b>Welcome to TECH LANE </h1> <br> <h2>Your Smart Shopping Destination
+    At TECH LANE <br>we bring you the latest and smartest in tech gadgets, electronics, and home innovations all just a click away.<br>  From smart TVs and mobile accessories to cutting-edge wearables and kitchen tech, we make online shopping simple, secure, and enjoyable. <br>Discover top brands, exclusive deals, and fast delivery – all in one sleek lane.
+    
+    Shop smart. Shop <b>TECH LANE</b></p>
+  </h2>
+  
+</div>
 
   <footer>
     <div class="data-container">
