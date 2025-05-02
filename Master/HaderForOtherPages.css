@@ -50,12 +50,13 @@ header {
 .search-container {
     max-width: 20vw;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .search-container i {
     position: absolute;
-    top: 10px;
-    right: 1vw;
+    right: 10px;
 }
 
 /* remmber to able place holder to change with width of web page  */
@@ -67,7 +68,7 @@ header {
     padding-left: 1vw;
     padding-right: 2vw;
     margin: auto;
-    max-width: 20vw;
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -162,7 +163,55 @@ header {
     color: #007BFF;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+  }
 
+@media (max-width: 768px) {
+
+
+    .search-container {
+        max-width: 40vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+  .menu-toggle {
+    display: block;
+  }
+
+  .navigation-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    flex-direction: column;
+    background-color: gray;
+    width: 30vw;
+    height: 100vh;
+    padding-top: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    transition: right 0.3s ease-in-out;
+    z-index: 9999;
+  }
+
+  .navigation-links.active {
+    right: 0;
+  }
+
+  .navigation-links li{
+    margin-bottom: 30px;
+  }
+  .navigation-links li a {
+    font-size: 5vw;
+
+  }
+}
 /* ---------------------end-header--------------------------- */
 
 footer a {

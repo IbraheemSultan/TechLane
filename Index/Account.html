@@ -31,7 +31,7 @@
     </ul>
 
     <div class="search-container">
-      <input type="search" placeholder="What are you looking for?" class="search-bar">
+      <input type="search" placeholder=" Search " class="search-bar">
       <i class="fas fa-search"></i>
     </div>
 
@@ -67,9 +67,11 @@
           <li class="account-register-btn"><a href="Register.html">Register</a></li>
         </ul>
       </div>
-
+    
     </div>
-
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
   </header>
 
   <div class="container">
@@ -230,21 +232,8 @@
       tabContent.innerHTML = content;
     }
   </script>
-
-  <!-- for only test -->
-  <!-- <script>
-        function toggleDropdown() {
-          const dropdown = document.getElementById("accountDropdown2");
-          dropdown.classList.toggle("show");
-        }
-      
-        // Close dropdown when clicking outside
-        window.addEventListener("click", function(e) {
-          if (!e.target.closest('.icons')) {
-            document.getElementById("accountDropdown2").classList.remove("show");
-          }
-        });
-      </script> -->
+ <script src="../js/header.js"></script>
+ 
 </body>
 
 </html>
