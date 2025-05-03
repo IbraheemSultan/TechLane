@@ -19,7 +19,7 @@ function prevImage() {
 
 setInterval(nextImage, 3000);
 
-
+// first
 
 function scrollLeft() {
     document.querySelector('.offer-items').scrollBy({
@@ -34,32 +34,34 @@ function scrollRight() {
         behavior: 'smooth'
     });
 }
+
+//  catagory 
 function scrollLeftctgr() {
     document.querySelector('.ctgr-items').scrollBy({
         left: -100,
         behavior: 'smooth'
     });
 }
-
-function scrollRightsell() {
-    document.querySelector('.sell-items').scrollBy({
-        left: 100,
-        behavior: 'smooth'
-    });
-}
-function scrollLeftsell() {
-    document.querySelector('.sell-items').scrollBy({
-        left: -100,
-        behavior: 'smooth'
-    });
-}
-
 function scrollRightctgr() {
     document.querySelector('.ctgr-items').scrollBy({
         left: 100,
         behavior: 'smooth'
     });
 }
+
+//  sell 
+function scrollRightsell() {
+    document.querySelector('.sell-items').scrollBy({
+        left: 100,
+        behavior: 'smooth'
+    });    
+}    
+function scrollLeftsell() {
+    document.querySelector('.sell-items').scrollBy({
+        left: -100,
+        behavior: 'smooth'
+    });    
+}    
 
 
 
