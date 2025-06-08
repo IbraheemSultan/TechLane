@@ -1,12 +1,7 @@
+const loginForm = document.querySelector("form.login-form");
 
-document.addEventListener("DOMContentLoaded", function () {
-    const passwordInput = document.getElementById("login-inp-password");
-    const toggleIcon = document.getElementById("togglePassword");
-
-    toggleIcon.addEventListener("click", () => {
-      const isPassword = passwordInput.type === "password";
-      passwordInput.type = isPassword ? "text" : "password";
-      toggleIcon.classList.toggle("fa-eye");
-      toggleIcon.classList.toggle("fa-eye-slash");
-    });
-  });
+console.log(loginForm);
+loginForm.addEventListener("submit", (e)=>{
+  e.preventDefault();
+  window.location.href = "/index/Home.html";
+})

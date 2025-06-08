@@ -21,7 +21,7 @@ setInterval(nextImage, 3000);
 
 // first
 
-function scrollLeft() {
+function scroll_left() {
     document.querySelector('.offer-items').scrollBy({
         left: -100,
         behavior: 'smooth'
