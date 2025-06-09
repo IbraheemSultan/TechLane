@@ -16,3 +16,13 @@ const menuToggle = document.querySelector('.menu-toggle');
         navLinks.classList.remove('active');
       }
     });
+
+
+const searchInput = document.querySelector("div.search-container input");
+
+  searchInput.addEventListener("keydown", function(event) {
+    console.log("Here")
+    if (event.key === "Enter" && searchInput.value.length > 0) {
+      window.location.href = "/index/SearchProduct.html";
+    }
+  });
