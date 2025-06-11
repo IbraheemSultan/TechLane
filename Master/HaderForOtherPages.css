@@ -112,7 +112,8 @@ header {
     padding: 30px;
     position: absolute;
     z-index: 999;
-    background-image: linear-gradient( to right , black , gray );
+    background-image: linear-gradient( to right ,hsl(0, 0%, 99%) , hsl(0,0%,95%));
+    border: 1px solid hsl(0, 0%, 50%);
     right: 0px;
     top: 20px;
     list-style: none;
@@ -127,7 +128,6 @@ header {
     z-index: 999;
     position: absolute;
     /* background-color: #f0f0f0; */
-    background-image: linear-gradient(to right , black , gray);    
     right: 3px;
     top: 25px;
     list-style: none;
@@ -156,7 +156,7 @@ header {
 #account-dropdown-passive  a , #account-dropdown-active a{
     text-transform: none !important;
     text-decoration: none;
-    color: #fff;
+    color: black;
     transition: 0.3s;
     font-size: 20px;
 }
