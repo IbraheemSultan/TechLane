@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECHLANE</title>
+    <link rel="stylesheet" href="../Master/HaderForOtherPages.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../Master/About.css" />
+    <link
+      rel="shortcut icon"
+      href="../image/ChatGPT Image 25 أبريل 2025، 03_50_46 ص.png"
+      type="image/png"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TECHLANE</title>
-  <link rel="stylesheet" href="../Master/HaderForOtherPages.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="../Master/About.css">
-  <link rel="shortcut icon" href="../image/ChatGPT Image 25 أبريل 2025، 03_50_46 ص.png" type="image/png">
+  <body>
+    <header>
+      <svg
+        width="200"
+        height="60"
+        viewBox="0 0 200 60"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        class="logo"
+      >
+        <text
+          x="0"
+          y="45"
+          font-family="Segoe UI, sans-serif"
+          font-size="40"
+          fill="#1E90FF"
+          font-weight="bold"
+        >
+          TECH
+        </text>
+        <text
+          x="105"
+          y="45"
+          font-family="Segoe UI, sans-serif"
+          font-size="40"
+          fill="#000000"
+          font-weight="bold"
+        >
+          LANE
+        </text>
+      </svg>
+      <ul class="navigation-links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="About.html">About</a></li>
+      </ul>
 
-</head>
+      <div class="search-container">
+        <input type="search" placeholder=" Search " class="search-bar" />
+        <i class="fas fa-search"></i>
+      </div>
 
-<body>
+      <div class="icons">
+        <a href="">
+          <i class="fa-regular fa-heart"></i>
+        </a>
+        <a href="Cart.html">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
 
-  <header>
-    <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" fill="none" class="logo">
-      <text x="0" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#1E90FF" font-weight="bold">TECH</text>
-      <text x="105" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#000000"
-        font-weight="bold">LANE</text>
-    </svg>
-    <ul class="navigation-links">
-
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-      <li><a href="About.html">About</a></li>
-
-    </ul>
-
-    <div class="search-container">
-      <input type="search" placeholder=" Search " class="search-bar">
-      <i class="fas fa-search"></i>
-    </div>
-
-    <div class="icons">
-
-      <a href="">
-        <i class="fa-regular fa-heart"></i>
-      </a>
-      <a href="Cart.html">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </a>
-
-      <div id="account-icon-container">
-        <i class="fa-regular fa-circle-user" id="account-icon"></i>
-        <!--  Handel View by js -->
-        <!-- <ul id="account-dropdown-active" class="dropdown">
+        <div id="account-icon-container">
+          <a href="Login.html">
+            <i class="fa-regular fa-circle-user" id="account-icon"></i>
+          </a>
+          <!--  Handel View by js -->
+          <!-- <ul id="account-dropdown-active" class="dropdown">
           <li>
             <a href="Account.html">Profile</a>
           </li>
@@ -60,160 +87,152 @@
           </li>
         </ul> -->
 
-        <ul id="account-dropdown-passive" class="dropdown">
-          <li><a href="Login.html">Login</a></li>
-          <li class="account-register-btn"><a href="Register.html">Register</a></li>
-        </ul>
+          <!-- <ul id="account-dropdown-passive" class="dropdown">
+            <li><a href="Login.html">Login</a></li>
+            <li class="account-register-btn">
+              <a href="Register.html">Register</a>
+            </li>
+          </ul> -->
+        </div>
       </div>
-  
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
 
-    </div>
-    <div class="menu-toggle">
-      <i class="fas fa-bars"></i>
-    </div>
-  </header>
-
-
-
-  <div class="container">
-    <div class="navigation-bar">
-      <p>
-        <a href="Home.html">Home</a>
-        / <a href="About.html" class="Curant-page">About</a>
-      </p>
-    </div>
-
-    <section class="story">
-      <div class="story-text">
-        <h2>Our Story</h2>
+    <div class="container">
+      <div class="navigation-bar">
         <p>
-          Founded in 2025, <strong>TECHLANE</strong> is a leading e-commerce platform specializing in technology
-          products. From gadgets to smart devices, we provide top-quality items with fast delivery and outstanding
-          service.
-        </p>
-        <p>
-          With thousands of satisfied users worldwide, TECHLANE continues to grow and innovate in the tech space.
+          <a href="Home.html">Home</a>
+          / <a href="About.html" class="Curant-page">About</a>
         </p>
       </div>
-      <img src="../image/About-img.jpg" alt="Team shopping">
-    </section>
 
-    <section class="stats">
-      <div class="stat-box">
-        <h3>10.5k</h3>
-        <p>Tech items sold</p>
-      </div>
-      <div class="stat-box active">
-        <h3>33k</h3>
-        <p>Monthly Product Sale</p>
-      </div>
-      <div class="stat-box">
-        <h3>45.5k</h3>
-        <p>Customer reviews</p>
-      </div>
-      <div class="stat-box">
-        <h3>25k</h3>
-        <p>Annual gross sales</p>
-      </div>
-    </section>
-
-    <section class="team">
-      <h2>Meet Our Team</h2>
-      <div class="team-members">
-        <div class="member">
-          <img src="../image/Tom.jpeg " alt="Tom">
-          <h4>Tom </h4>
-          <p>Founder & Chairman</p>
-          <div class="social-icons">
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </div>
-
-
+      <section class="story">
+        <div class="story-text">
+          <h2>Our Story</h2>
+          <p>
+            Founded in 2025, <strong>TECHLANE</strong> is a leading e-commerce
+            platform specializing in technology products. From gadgets to smart
+            devices, we provide top-quality items with fast delivery and
+            outstanding service.
+          </p>
+          <p>
+            With thousands of satisfied users worldwide, TECHLANE continues to
+            grow and innovate in the tech space.
+          </p>
         </div>
-        <div class="member member2">
-          <img src="../image/Emma.jpeg" alt="Emma">
-          <h4>Emma </h4>
-          <p>Managing Director</p>
-          <div class="social-icons">
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+        <img src="../image/About-img.jpg" alt="Team shopping" />
+      </section>
+
+      <section class="stats">
+        <div class="stat-box">
+          <h3>10.5k</h3>
+          <p>Tech items sold</p>
+        </div>
+        <div class="stat-box active">
+          <h3>33k</h3>
+          <p>Monthly Product Sale</p>
+        </div>
+        <div class="stat-box">
+          <h3>45.5k</h3>
+          <p>Customer reviews</p>
+        </div>
+        <div class="stat-box">
+          <h3>25k</h3>
+          <p>Annual gross sales</p>
+        </div>
+      </section>
+
+      <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-members">
+          <div class="member">
+            <img src="../image/Tom.jpeg " alt="Tom" />
+            <h4>Tom</h4>
+            <p>Founder & Chairman</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="member member2">
+            <img src="../image/Emma.jpeg" alt="Emma" />
+            <h4>Emma</h4>
+            <p>Managing Director</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="member">
+            <img src="../image/Will.jpeg" alt="Will" />
+            <h4>Will</h4>
+            <p>Product Designer</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
           </div>
         </div>
-        <div class="member ">
-          <img src="../image/Will.jpeg" alt="Will">
-          <h4>Will </h4>
-          <p>Product Designer</p>
-          <div class="social-icons">
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </div>
+      </section>
+
+      <section class="features">
+        <div class="feature">
+          <i class="fas fa-truck feature-icon"></i>
+          <h4>Free and Fast Delivery</h4>
+          <p>Free delivery for all orders above $50.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="features">
-      <div class="feature">
-        <i class="fas fa-truck feature-icon"></i>
-        <h4>Free and Fast Delivery</h4>
-        <p>Free delivery for all orders above $50.</p>
-      </div>
-      <div class="feature">
-        <i class="fas fa-headset feature-icon"></i>
-        <h4>24/7 Customer Service</h4>
-        <p>Always available to support you anytime.</p>
-      </div>
-      <div class="feature">
-        <i class="fas fa-shield-alt feature-icon"></i>
-        <h4>Money Back Guarantee</h4>
-        <p>Refunds available within 30 days of purchase.</p>
-      </div>
-    </section>
-  </div>
-
-
-  <footer>
-    <div class="data-container">
-      <div class="support">
-        <h2>Support</h2>
-        <p class="support-address">
-          Street Address, Suite Number, <br> City, State, Country
-        </p>
-        <p class="support-email">
-          techlane@gmail.com
-        </p>
-        <p class="support-phone">
-          + 1 555 123 4567
-        </p>
-
-      </div>
-      <div class="account">
-        <h2>Account</h2>
-        <a href="Account.html">My account</a>
-        <a href="Login.html">Login / Register</a>
-        <a href="Cart.html">Cart </a>
-        <a href="Wishlist.html">Wishlist</a>
-      </div>
-      <div class="quick-link">
-        <h2>Quick Link</h2>
-        <a href="#">privacy policy</a>
-        <a href="#">Terms Of Use</a>
-        <a href="#">FAQ</a>
-        <a href="Contact.html">Contact</a>
-      </div>
-
+        <div class="feature">
+          <i class="fas fa-headset feature-icon"></i>
+          <h4>24/7 Customer Service</h4>
+          <p>Always available to support you anytime.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-shield-alt feature-icon"></i>
+          <h4>Money Back Guarantee</h4>
+          <p>Refunds available within 30 days of purchase.</p>
+        </div>
+      </section>
     </div>
-    <div class="copyright-container">
-      <p class="line"></p>
-      <p class="copyright"> &copy; Copyright Sultan Team 2025. All right reserved </p>
-    </div>
-  </footer>
-  
-  <script src="../js/header.js"></script>
 
-</body>
+    <footer>
+      <div class="data-container">
+        <div class="support">
+          <h2>Support</h2>
+          <p class="support-address">
+            Street Address, Suite Number, <br />
+            City, State, Country
+          </p>
+          <p class="support-email">techlane@gmail.com</p>
+          <p class="support-phone">+ 1 555 123 4567</p>
+        </div>
+        <div class="account">
+          <h2>Account</h2>
+          <a href="Account.html">My account</a>
+          <a href="Login.html">Login / Register</a>
+          <a href="Cart.html">Cart </a>
+          <a href="Wishlist.html">Wishlist</a>
+        </div>
+        <div class="quick-link">
+          <h2>Quick Link</h2>
+          <a href="#">privacy policy</a>
+          <a href="#">Terms Of Use</a>
+          <a href="#">FAQ</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <p class="line"></p>
+        <p class="copyright">
+          &copy; Copyright Sultan Team 2025. All right reserved
+        </p>
+      </div>
+    </footer>
 
+    <script src="../js/header.js"></script>
+  </body>
 </html>

@@ -1,52 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECHLANE</title>
+    <link rel="stylesheet" href="../Master/HaderForOtherPages.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../image/ChatGPT Image 25 أبريل 2025، 03_50_46 ص.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../Master/CheckOut.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TECHLANE</title>
-  <link rel="stylesheet" href="../Master/HaderForOtherPages.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="shortcut icon" href="../image/ChatGPT Image 25 أبريل 2025، 03_50_46 ص.png" type="image/png">
-  <link rel="stylesheet" href="../Master/CheckOut.css">
+  <body>
+    <header>
+      <svg
+        width="200"
+        height="60"
+        viewBox="0 0 200 60"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        class="logo"
+      >
+        <text
+          x="0"
+          y="45"
+          font-family="Segoe UI, sans-serif"
+          font-size="40"
+          fill="#1E90FF"
+          font-weight="bold"
+        >
+          TECH
+        </text>
+        <text
+          x="105"
+          y="45"
+          font-family="Segoe UI, sans-serif"
+          font-size="40"
+          fill="#000000"
+          font-weight="bold"
+        >
+          LANE
+        </text>
+      </svg>
+      <ul class="navigation-links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="About.html">About</a></li>
+      </ul>
 
-</head>
+      <div class="search-container">
+        <input type="search" placeholder=" Search " class="search-bar" />
+        <i class="fas fa-search"></i>
+      </div>
 
-<body>
+      <div class="icons">
+        <a href="">
+          <i class="fa-regular fa-heart"></i>
+        </a>
+        <a href="Cart.html">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
 
-
-  <header>
-    <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" fill="none" class="logo">
-      <text x="0" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#1E90FF" font-weight="bold">TECH</text>
-      <text x="105" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#000000"
-        font-weight="bold">LANE</text>
-    </svg>
-    <ul class="navigation-links">
-
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-      <li><a href="About.html">About</a></li>
-
-    </ul>
-
-    <div class="search-container">
-       <input type="search" placeholder=" Search " class="search-bar">
-      <i class="fas fa-search"></i>
-    </div>
-
-    <div class="icons">
-
-      <a href="">
-        <i class="fa-regular fa-heart"></i>
-      </a>
-      <a href="Cart.html">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </a>
-
-      <div id="account-icon-container">
-        <i class="fa-regular fa-circle-user" id="account-icon"></i>
-        <!--  Handel View by js -->
-        <!-- <ul id="account-dropdown-active" class="dropdown">
+        <div id="account-icon-container">
+          <a href="Login.html">
+            <i class="fa-regular fa-circle-user" id="account-icon"></i>
+          </a>
+          <!--  Handel View by js -->
+          <!-- <ul id="account-dropdown-active" class="dropdown">
           <li>
             <a href="Account.html">Profile</a>
           </li>
@@ -61,133 +87,136 @@
           </li>
         </ul> -->
 
-        <ul id="account-dropdown-passive" class="dropdown">
-          <li><a href="Login.html">Login</a></li>
-          <li class="account-register-btn"><a href="Register.html">Register</a></li>
-        </ul>
+          <!-- <ul id="account-dropdown-passive" class="dropdown">
+            <li><a href="Login.html">Login</a></li>
+            <li class="account-register-btn">
+              <a href="Register.html">Register</a>
+            </li>
+          </ul> -->
+        </div>
+      </div>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="billing-details">
+        <h2>Billing Details</h2>
+        <form action="">
+          <label for="name">First Name*</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="Company">Company Name</label><br />
+          <input type="text" id="Company" name="Company" required /><br /><br />
+
+          <label for="address">Street Address</label><br />
+          <input type="text" id="address" name="address" required /><br /><br />
+
+          <label for="optional">Apartment,Floor,etc.(optional)</label><br />
+          <input
+            type="text"
+            id="optional"
+            name="optional"
+            required
+          /><br /><br />
+
+          <label for="city">Town/City*</label><br />
+          <input type="text" id="city" name="city" required /><br /><br />
+
+          <label for="phone">Phone Number*</label><br />
+          <input type="tel" id="phone" name="phone" required /><br /><br />
+
+          <label for="email">Email Address*</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <input type="checkbox" id="agree" name="agree" required />
+          <label for="agree" style="display: inline; white-space: nowrap"
+            >Save this information for faster check-out next time</label
+          >
+        </form>
       </div>
 
-    </div>
-    <div class="menu-toggle">
-      <i class="fas fa-bars"></i>
-    </div>
+      <div class="order-summary">
+        <div class="order-item">
+          <img
+            src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+            alt=" Lenovo "
+            width="50"
+          />
+          <span>Lenovo</span>
+          <p>$ <span>300</span></p>
+        </div>
+        <div class="order-item">
+          <img
+            src="../image/WhatsApp Image 2025-04-28 at 06.13.15_ec3bf054.jpg"
+            alt="H Gamepad"
+            width="50"
+          />
+          <span>H Gamepad</span>
+          <p>$ <span>100</span></p>
+        </div>
 
-  </header>
+        <div class="order-totals">
+          <div>Subtotal $<span>750</span></div>
+          <hr />
+          <div>Shipping $<span>20</span></div>
+          <hr />
+          <div>Total $<span>750</span></div>
+        </div>
 
-  <div class="container">
+        <div class="payment-method">
+          <label><input type="radio" name="payment" checked /> Bank</label
+          ><br />
+          <label><input type="radio" name="payment" /> Cash on delivery</label>
+        </div>
 
-    <div class="billing-details">
-      <h2>Billing Details</h2>
-      <form action="">
-        <label for="name">First Name*</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+        <div class="coupon">
+          <input type="text" placeholder="Coupon Code" />
+          <button>Apply Coupon</button>
+        </div>
 
-        <label for="Company">Company Name</label><br>
-        <input type="text" id="Company" name="Company" required><br><br>
-
-        <label for="address">Street Address</label><br>
-        <input type="text" id="address" name="address" required><br><br>
-
-        <label for="optional">Apartment,Floor,etc.(optional)</label><br>
-        <input type="text" id="optional" name="optional" required><br><br>
-
-        <label for="city">Town/City*</label><br>
-        <input type="text" id="city" name="city" required><br><br>
-
-        <label for="phone">Phone Number*</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br>
-
-        <label for="email">Email Address*</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-
-        <input type="checkbox" id="agree" name="agree" required> <label for="agree"
-          style="display: inline; white-space: nowrap;">Save this information for faster check-out next time</label>
-
-
-      </form>
-    </div>
-
-    <div class="order-summary">
-
-      <div class="order-item">
-        <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt=" Lenovo " width="50">
-        <span>Lenovo</span>
-        <p> $ <span >300</span></p>
+        <a href="Home.html">
+          <button class="place-order">Place Order</button>
+        </a>
       </div>
-      <div class="order-item">
-        <img src="../image/WhatsApp Image 2025-04-28 at 06.13.15_ec3bf054.jpg" alt="H Gamepad" width="50">
-        <span>H Gamepad</span>
-        <p>
-          $ <span>100</span>
+    </div>
+
+    <script src="../js/CheckOut.js"></script>
+
+    <footer>
+      <div class="data-container">
+        <div class="support">
+          <h2>Support</h2>
+          <p class="support-address">
+            Street Address, Suite Number, <br />
+            City, State, Country
+          </p>
+          <p class="support-email">techlane@gmail.com</p>
+          <p class="support-phone">+ 1 555 123 4567</p>
+        </div>
+        <div class="account">
+          <h2>Account</h2>
+          <a href="Account.html">My account</a>
+          <a href="Login.html">Login / Register</a>
+          <a href="Cart.html">Cart </a>
+          <a href="Wishlist.html">Wishlist</a>
+        </div>
+        <div class="quick-link">
+          <h2>Quick Link</h2>
+          <a href="#">privacy policy</a>
+          <a href="#">Terms Of Use</a>
+          <a href="#">FAQ</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <p class="line"></p>
+        <p class="copyright">
+          &copy; Copyright Sultan Team 2025. All right reserved
         </p>
       </div>
-
-      <div class="order-totals">
-        <div>Subtotal  $<span>750</span></div>
-        <hr>
-        <div>Shipping  $<span>20</span></div>
-        <hr>
-        <div>Total  $<span>750</span></div>
-      </div>
-
-      <div class="payment-method">
-        <label><input type="radio" name="payment" checked> Bank</label><br>
-        <label><input type="radio" name="payment"> Cash on delivery</label>
-      </div>
-
-      <div class="coupon">
-        <input type="text" placeholder="Coupon Code">
-        <button>Apply Coupon</button>
-      </div>
-
-      <a href="Home.html">
-        <button class="place-order">Place Order</button>
-      </a>
-    </div>
-  </div>
-
-
-<script src="../js/CheckOut.js"></script>
-
-  <footer>
-    <div class="data-container">
-      <div class="support">
-        <h2>Support</h2>
-        <p class="support-address">
-          Street Address, Suite Number, <br> City, State, Country
-        </p>
-        <p class="support-email">
-          techlane@gmail.com
-        </p>
-        <p class="support-phone">
-          + 1 555 123 4567
-        </p>
-
-      </div>
-      <div class="account">
-        <h2>Account</h2>
-        <a href="Account.html">My account</a>
-        <a href="Login.html">Login / Register</a>
-        <a href="Cart.html">Cart </a>
-        <a href="Wishlist.html">Wishlist</a>
-      </div>
-      <div class="quick-link">
-        <h2>Quick Link</h2>
-        <a href="#">privacy policy</a>
-        <a href="#">Terms Of Use</a>
-        <a href="#">FAQ</a>
-        <a href="Contact.html">Contact</a>
-      </div>
-
-    </div>
-    <div class="copyright-container">
-      <p class="line"></p>
-      <p class="copyright"> &copy; Copyright Sultan Team 2025. All right reserved </p>
-    </div>
-  </footer>
-  <script src="../js/header.js"></script>
-
-</body>
-
+    </footer>
+    <script src="../js/header.js"></script>
+  </body>
 </html>
