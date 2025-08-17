@@ -1,4 +1,3 @@
-<!--
 # TechLane E-Commerce Platform
 
 TechLane is a modern E-Commerce solution enabling seamless online shopping and efficient management for vendors and administrators. The platform offers intuitive navigation, secure transactions, and comprehensive analytics to support business growth.
