@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECHLANE</title>
+    <link rel="stylesheet" href="../Master/SearchProduct.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TECHLANE</title>
-  <link rel="stylesheet" href="../Master/SearchProduct.css">
+    <link rel="stylesheet" href="../Master/HaderForOtherPages.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../image/ChatGPT Image 25 أبريل 2025، 03_50_46 ص.png"
+      type="image/png"
+    />
+  </head>
 
-  <link rel="stylesheet" href="../Master/HaderForOtherPages.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="shortcut icon" href="../image/ChatGPT Image 25 أبريل 2025، 03_50_46 ص.png" type="image/png">
+  <body>
+    <header>
+      <svg
+        width="200"
+        height="60"
+        viewBox="0 0 200 60"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        class="logo"
+      >
+        <text
+          x="0"
+          y="45"
+          font-family="Segoe UI, sans-serif"
+          font-size="40"
+          fill="#1E90FF"
+          font-weight="bold"
+        >
+          TECH
+        </text>
+        <text
+          x="105"
+          y="45"
+          font-family="Segoe UI, sans-serif"
+          font-size="40"
+          fill="#000000"
+          font-weight="bold"
+        >
+          LANE
+        </text>
+      </svg>
 
-</head>
+      <ul class="navigation-links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="About.html">About</a></li>
+      </ul>
 
-<body>
+      <div class="search-container">
+        <input type="search" placeholder=" Search " class="search-bar" />
+        <i class="fas fa-search"></i>
+      </div>
 
+      <div class="icons">
+        <a href="Wishlist.html">
+          <i class="fa-regular fa-heart"></i>
+        </a>
+        <a href="Cart.html">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
 
-
-  <header>
-
-    <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" fill="none" class="logo">
-      <text x="0" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#1E90FF" font-weight="bold">TECH</text>
-      <text x="105" y="45" font-family="Segoe UI, sans-serif" font-size="40" fill="#000000"
-        font-weight="bold">LANE</text>
-    </svg>
-
-    <ul class="navigation-links">
-
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-      <li><a href="About.html">About</a></li>
-
-    </ul>
-
-    <div class="search-container">
-      <input type="search" placeholder=" Search " class="search-bar">
-      <i class="fas fa-search"></i>
-    </div>
-
-    <div class="icons">
-
-      <a href="Wishlist.html">
-        <i class="fa-regular fa-heart"></i>
-      </a>
-      <a href="Cart.html">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </a>
-
-      <div id="account-icon-container">
-        <a href="Login.html">
+        <div id="account-icon-container">
+          <a href="Login.html">
             <i class="fa-regular fa-circle-user" id="account-icon"></i>
           </a>
-        <!--  Handel View by js -->
-        <!-- <ul id="account-dropdown-active" class="dropdown">
+          <!--  Handel View by js -->
+          <!-- <ul id="account-dropdown-active" class="dropdown">
           <li>
             <a href="Account.html">Profile</a>
           </li>
@@ -67,1102 +89,1114 @@
           </li>
         </ul> -->
 
-        <!-- <ul id="account-dropdown-passive" class="dropdown">
+          <!-- <ul id="account-dropdown-passive" class="dropdown">
           <li><a href="Login.html">Login</a></li>
           <li class="account-register-btn"><a href="Register.html">Register</a></li>
         </ul> -->
+        </div>
       </div>
-
-    </div>
-    <div class="menu-toggle">
-      <i class="fas fa-bars"></i>
-    </div>
-
-  </header>
-
-
-
-
-    <section class="offer-section">
-
- 
-
-      <div class="offer-items">
-
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -35</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">ASUS ROG Zephyrus</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -35</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -35</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad Slim 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -35</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-        <div class="offer-item">
-
-          <div class="offer-item-action">
-            <div class="item-discound">
-              <p class="prg-discound"> <span class="span-discound"> -100</span> %</p>
-            </div>
-            <div class="item-show-btn">
-              <a href="ProductDetails.html">
-                <button><i class="fa-regular fa-eye"></i></button>
-              </a>
-            </div>
-            <div class="add-wishlist">
-              <a href="Wishlist.html">
-                <i class="fa-regular fa-heart"></i>
-              </a>
-            </div>
-            <div class="item-img">
-              <img src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png" alt="">
-              <button>
-                <i class="fa-solid fa-cart-plus"></i>
-                Add To Cart
-              </button>
-
-            </div>
-          </div>
-
-
-          <div class="item-data">
-            <h3 class="item-title">Lenovo IdeaPad 5</h3>
-            <span class="item-price-current">$960</span>
-            <span class="item-price-old">$1200</span>
-          </div>
-
-        </div>
-
-
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
       </div>
+    </header>
+    <div class="container">
+      <!-- <aside>
+        <span>fdsafsdfasdfsfdsassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</span>
+      </aside> -->
 
-    </section>
+      <section class="offer-section">
+        <div class="offer-items">
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -35</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
 
+            <div class="item-data">
+              <h3 class="item-title">ASUS ROG Zephyrus</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
 
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -35</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
 
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
 
-  </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -35</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
 
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad Slim 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
 
-  <footer>
-    <div class="data-container">
-      <div class="support">
-        <h2>Support</h2>
-        <p class="support-address">
-          Street Address, Suite Number, <br> City, State, Country
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -35</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+          <div class="offer-item">
+            <div class="offer-item-action">
+              <div class="item-discound">
+                <p class="prg-discound">
+                  <span class="span-discound"> -100</span> %
+                </p>
+              </div>
+              <div class="item-show-btn">
+                <a href="ProductDetails.html">
+                  <button><i class="fa-regular fa-eye"></i></button>
+                </a>
+              </div>
+              <div class="add-wishlist">
+                <a href="Wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </div>
+              <div class="item-img">
+                <img
+                  src="../image/ChatGPT Image Apr 29, 2025, 05_53_08 PM.png"
+                  alt=""
+                />
+                <button>
+                  <i class="fa-solid fa-cart-plus"></i>
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="item-data">
+              <h3 class="item-title">Lenovo IdeaPad 5</h3>
+              <span class="item-price-current">$960</span>
+              <span class="item-price-old">$1200</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="data-container">
+        <div class="support">
+          <h2>Support</h2>
+          <p class="support-address">
+            Street Address, Suite Number, <br />
+            City, State, Country
+          </p>
+          <p class="support-email">techlane@gmail.com</p>
+          <p class="support-phone">+ 1 555 123 4567</p>
+        </div>
+        <div class="account">
+          <h2>Account</h2>
+          <a href="Account.html">My account</a>
+          <a href="Login.html">Login / Register</a>
+          <a href="Cart.html">Cart </a>
+          <a href="Wishlist.html">Wishlist</a>
+        </div>
+        <div class="quick-link">
+          <h2>Quick Link</h2>
+          <a href="#">privacy policy</a>
+          <a href="#">Terms Of Use</a>
+          <a href="#">FAQ</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <p class="line"></p>
+        <p class="copyright">
+          &copy; Copyright Sultan Team 2025. All right reserved
         </p>
-        <p class="support-email">
-          techlane@gmail.com
-        </p>
-        <p class="support-phone">
-          + 1 555 123 4567
-        </p>
-
       </div>
-      <div class="account">
-        <h2>Account</h2>
-        <a href="Account.html">My account</a>
-        <a href="Login.html">Login / Register</a>
-        <a href="Cart.html">Cart </a>
-        <a href="Wishlist.html">Wishlist</a>
-      </div>
-      <div class="quick-link">
-        <h2>Quick Link</h2>
-        <a href="#">privacy policy</a>
-        <a href="#">Terms Of Use</a>
-        <a href="#">FAQ</a>
-        <a href="Contact.html">Contact</a>
-      </div>
+    </footer>
 
-    </div>
-    <div class="copyright-container">
-      <p class="line"></p>
-      <p class="copyright"> &copy; Copyright Sultan Team 2025. All right reserved </p>
-    </div>
-  </footer>
-
-  <script src="../js/header.js"></script>
-
-</body>
-
+    <script src="../js/header.js"></script>
+  </body>
 </html>
